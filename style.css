@@ -106,7 +106,7 @@ footer {
 }
 
 div.section {
-  height: 300px;
+  height: fit-content;
   color: white;
 }
 
