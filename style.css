@@ -1,99 +1,131 @@
 body {
-    background: #192226 !important;
-  }
-  
-  .navbar-inverse {
-    background: #222B31 !important;
-    border-bottom: 4px solid #EE445F !important;
-  }
-  
-  .navbar-brand {
-    font: 12px Lato !important;
-    text-transform: uppercase;
-    color: #FFF !important;
-    letter-spacing: 2px;
-    margin-top: 2px;
-  }
-  
-  .nav {
-    margin-bottom: 0px;
-  }
-  .nav a {
-    font: 500 11px Lato;
-    letter-spacing: 2px;
-    padding: 16px !important;
-    color: #a3bfc6 !important;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 1000;
-  }
-  .nav a:hover {
-    color: #FFF !important;
-  }
-  .nav li {
-    position: relative;
-  }
-  
-  .navbar-inverse .navbar-toggle {
-    border: none;
-  }
-  
-  .navbar-collapse {
-    box-shadow: none !important;
-    border: none !important;
-  }
-  
-  .navbar-inverse .navbar-toggle:hover {
-    background: transparent !important;
-  }
-  
-  .navbar-inverse .navbar-toggle:focus {
-    background: transparent !important;
-  }
-  
-  .navbar-inverse .navbar-toggle:active {
-    background: transparent !important;
-  }
-  
-  .icon-bar {
-    background: #a3bfc6 !important;
-  }
-  
-  .hover {
-    display: block;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: #EE445F !important;
-    z-index: 0;
-    opacity: 0;
-  }
-  
-div.separator{
+  background: #192226 !important;
+}
+
+.navbar-inverse {
+  background: #222B31 !important;
+  border-bottom: 4px solid #EE445F !important;
+}
+
+.navbar-brand {
+  font: 12px Lato !important;
+  text-transform: uppercase;
+  color: #FFF !important;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.nav {
+  margin-bottom: 0px;
+}
+
+.nav a {
+  font: 500 11px Lato;
+  letter-spacing: 2px;
+  padding: 16px !important;
+  color: #a3bfc6 !important;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
+}
+
+.nav a:hover {
+  color: #FFF !important;
+}
+
+.nav li {
+  position: relative;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+.navbar-collapse {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+  background: transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:active {
+  background: transparent !important;
+}
+
+.icon-bar {
+  background: #a3bfc6 !important;
+}
+
+.hover {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #EE445F !important;
+  z-index: 0;
+  opacity: 0;
+}
+
+div.separator {
   height: 69px;
 }
 
+div.section h2:hover {
+  color: #EE445F;
 
-div.section{
+}
+
+div.wrap-content {
+  background-color: rgb(36, 45, 52, 0.3);
+  /* width: 50%;
+  height: 50%; */
+  font-size: x-large;
+  text-shadow: #222B31;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: 40%;
+}
+
+div.banner {
+  text-align: center;
+  background-image: url('/banner.jpg');
+  height: 500px;
+}
+
+footer {
+  background-color: gray;
+}
+
+div.section {
   height: 300px;
   color: white;
 }
-div.section-small{
+
+div.section-small {
   height: 100px;
 }
 
-  @media (max-width: 767px) {
-    .nav {
-      padding-bottom: 20px;
-    }
-    .nav a {
-      padding: 12px !important;
-    }
+@media (max-width: 767px) {
+  .nav {
+    padding-bottom: 20px;
   }
-  @media (max-width: 480px) {
-    .nav {
-      padding-bottom: 20px;
-    }
+
+  .nav a {
+    padding: 12px !important;
   }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    padding-bottom: 20px;
+  }
+}
