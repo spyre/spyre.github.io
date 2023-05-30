@@ -71,6 +71,19 @@ body {
     opacity: 0;
   }
   
+div.separator{
+  height: 69px;
+}
+
+
+div.section{
+  height: 300px;
+  color: white;
+}
+div.section-small{
+  height: 100px;
+}
+
   @media (max-width: 767px) {
     .nav {
       padding-bottom: 20px;
